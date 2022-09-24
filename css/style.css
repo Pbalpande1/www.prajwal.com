@@ -34,6 +34,33 @@ header{
     color: red;
 }
 
+.sub-menu-1{
+    display: none;
+}
+ .nav ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background:black;
+    margin-top: 15px;
+    margin-left: -15px;
+    text-transform: capitalize;
+}
+.nav ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.nav ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.sub-menu-1 ul li a:hover{
+    color: red;
+}
+
 .user{
     cursor: pointer;
     color: aqua;
